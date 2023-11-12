@@ -1,0 +1,85 @@
+.task-main-container {
+  height: calc(100% - 60px);
+  /* padding: 0px 10%; */
+  width: 80vw;
+  margin-left: 10%;
+  border: 1px solid transparent;
+}
+.tasks-container {
+  overflow-y: scroll;
+  height: calc(100% - 70px);
+  padding-bottom: 30px;
+}
+
+.add-new-task {
+  color: #fff;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 60px;
+  height: 60px;
+  background-color: #5056ed;
+  border-radius: 50%;
+
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+}
+
+.create-task-modal .modal-content {
+  width: 646px !important;
+  /* height: 240px !important; */
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.taskname-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.create-task-save {
+  border-radius: 57px;
+  background: #5056ed;
+  width: 136px;
+  height: 40px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.taskname-text-input {
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 40px;
+  outline: none;
+  padding: 0px 10px;
+  width: 80%;
+}
+
+.error-text {
+  color: #ed5050;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.no-tasks {
+  margin-top: 30px !important;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
